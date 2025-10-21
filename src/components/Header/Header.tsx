@@ -5,7 +5,7 @@ export const Header = () => {
     return (
          <header className={classes.header}>
         <div className={classes.container}>
-            <a href="/" className={`${classes.link} ${classes.active}`}>ToDo</a>
+            <a href="/" className={classes.link} >ToDo</a>
         </div>
     </header>
     );
